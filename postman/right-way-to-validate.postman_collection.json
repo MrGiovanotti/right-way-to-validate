@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "064a9139-9c53-456e-be65-6b6d5cfcfa1b",
+		"name": "right-way-to-validate",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6608541"
+	},
+	"item": [
+		{
+			"name": "sendMessage",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"from\": \"Giovanny Granda\",\n    \"to\": \"Diana Guznay\",\n    \"content\": \"Vamos por un heladito :)\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/send",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"send"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
